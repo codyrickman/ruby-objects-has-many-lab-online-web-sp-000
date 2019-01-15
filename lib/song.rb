@@ -8,4 +8,11 @@ class Song
   def self.all
     @@all
   end
+  def artist_name
+    if (@artist != nill)
+      @artist
+    else
+      nil
+    end
+  end
 end
