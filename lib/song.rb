@@ -9,7 +9,7 @@ class Song
     @@all
   end
   def artist_name
-    if (@artist != nill)
+    if (@artist != nil)
       @artist
     else
       nil
